@@ -13,11 +13,11 @@
       "lang": "en"
     },
     "company": {
-      "logo": "/images/nexorix-logo.webp",
-      "logoLight": "/images/nexorix-logo-white.webp",
+      "logo": "/images/nexorix-logo-v2.webp",
+      "logoLight": "/images/nexorix-logo-white-v2.webp",
       "logoAlt": "Nexorix IT Solutions",
-      "logoWidth": 900,
-      "logoHeight": 196,
+      "logoWidth": 1993,
+      "logoHeight": 433,
       "contactItems": [
         {
           "id": "address",
