@@ -1,26 +1,85 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --font-primary: Arial, sans-serif;
+  --font-heading: Arial, sans-serif;
+  --font-display: Arial, sans-serif;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Nexorix theme (from the logo and the design: near-black ink and copper / orange on white) */
+  /* Ink (titles, menu, the logo's dark part) */
+  --color-ink: #0f141b;
+  --color-ink-soft: #1d232c;
+  /* Copper (the logo's ribbon: hero and About / Services / Why titles, photo frames, header button) */
+  --color-copper: #c1652b;
+  --color-copper-dark: #a65425;
+  --color-copper-deep: #9b4e1a;
+  --color-copper-light: #d18755;
+  --color-copper-pale: #f2a774;
+  --color-rust: #c2570f;
+  /* Orange (Testimonials, Contact, FAQ, footer, buttons) */
+  --color-orange: #ec7203;
+  --color-orange-deep: #d96605;
+  --color-orange-bright: #ff8403;
+  /* the open FAQ question's bar on hover */
+  --color-orange-dark: #bd5704;
+  /* Beige decorations */
+  --color-beige: #f2e9e4;
+  --color-beige-soft: #f6ede7;
+  --color-beige-badge: #fbf3ed;
+  --color-quote: #f1e1d2;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Text */
+  --color-text: #343a44;
+  --color-text-soft: #474e5a;
+  --color-text-muted: #5a606b;
+  --color-white: #ffffff;
+  --color-white-85: rgba(255, 255, 255, 0.85);
+  --color-white-95: rgba(255, 255, 255, 0.95);
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Backgrounds and borders */
+  --color-bg-main: #fefefe;
+  --color-bg-header: #ffffff;
+  --color-bg-about: #fdfbfc;
+  --color-bg-why-top: #fdfdfd;
+  --color-bg-why-bottom: #f8f8f8;
+  --color-bg-card: #f5f5f5;
+  --color-bg-faq-answer: #f6f4f4;
+  --color-bg-map: #eeedeb;
+  --color-bg-info: #2f3437;
+  --color-bg-footer: #13161b;
+  --color-bg-footer-glow: #1d2128;
+  /* hero: the dark layer that keeps the text readable (strong on the left, fading out to the right) */
+  --color-hero-overlay: rgba(9, 13, 19, 0.62);
+  --color-hero-overlay-mid: rgba(9, 13, 19, 0.38);
+  --color-hero-overlay-soft: rgba(9, 13, 19, 0.2);
+  /* hero: the copper diagonals in the bottom-right corner */
+  --color-hero-shape-dark: #b8642f;
+  --color-hero-shape-mid: #d08a58;
+  --color-hero-shape-light: #e9a571;
+  --color-hero-shape-edge: #f3b989;
+  /* hero: the gradient of the second title line (sampled from the design, left to right) */
+  --color-hero-title-from: #cf8150;
+  --color-hero-title-to: #f1a473;
+  /* Shown on both sides of the page when the screen is wider than 1920px (or the browser is zoomed out). */
+  --color-bg-backdrop: #f3f1f0;
+  --color-border: #e4e5e8;
+  --color-border-field: #d3d6db;
+  --color-divider: #dcdcdc;
+  --color-divider-dark: #3b3e44;
+  --color-divider-info: #53575a;
+
+  /* Map drawing */
+  --color-map-road: #ffffff;
+  --color-map-block: #e6e5e2;
+  --color-map-park: #cfe5c3;
+  --color-map-water: #b4d9ec;
+
+  /* Shadows */
+  --color-shadow: rgba(15, 20, 27, 0.08);
+  --color-shadow-strong: rgba(15, 20, 27, 0.16);
+  --color-shadow-copper: rgba(155, 78, 26, 0.35);
+  --color-shadow-orange: rgba(217, 102, 5, 0.35);
+  --color-overlay-menu: rgba(15, 20, 27, 0.45);
 }

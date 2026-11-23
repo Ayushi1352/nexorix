@@ -1,0 +1,482 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-golos)",
+        "heading": "var(--font-manrope)",
+        "display": "var(--font-poppins)"
+      }
+    },
+    "metadata": {
+      "title": "Nexorix IT Solutions | Creating a Better Tech Solutions",
+      "description": "Innovative, scalable and reliable IT solutions to help your business grow: custom software, cloud, IT infrastructure, cybersecurity and managed IT services.",
+      "lang": "en"
+    },
+    "company": {
+      "name": "Nexorix IT Solutions",
+      "logo": "/images/nexorix-logo.webp",
+      "logoLight": "/images/nexorix-logo-white.webp",
+      "logoAlt": "Nexorix IT Solutions",
+      "logoWidth": 900,
+      "logoHeight": 196,
+      "contactItems": [
+        {
+          "id": "address",
+          "icon": "FaMapMarkerAlt",
+          "title": "Address",
+          "lines": [
+            "123 Main Street,",
+            "New York, NY 10001"
+          ],
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+Street+New+York+NY+10001"
+        },
+        {
+          "id": "phone",
+          "icon": "FaPhoneAlt",
+          "title": "Phone",
+          "lines": [
+            "+1 0000000000"
+          ],
+          "url": "tel:+10000000000"
+        },
+        {
+          "id": "email",
+          "icon": "FaEnvelope",
+          "title": "Email",
+          "lines": [
+            "info@xyz.com"
+          ],
+          "url": "mailto:info@xyz.com"
+        }
+      ]
+    },
+    "Footer": {
+      "logoUrl": "#home",
+      "homeLabel": "Nexorix IT Solutions — back to top",
+      "description": "A trusted IT partner delivering\ninnovative, reliable, and scalable\ntechnology solutions for businesses.",
+      "linkGroups": [
+        {
+          "id": "quick-links",
+          "title": "Quick Links",
+          "links": [
+            {
+              "id": "home",
+              "label": "Home",
+              "url": "#home"
+            },
+            {
+              "id": "about-us",
+              "label": "About Us",
+              "url": "#about"
+            },
+            {
+              "id": "services",
+              "label": "Services",
+              "url": "#services"
+            },
+            {
+              "id": "why-choose-us",
+              "label": "Why Choose Us",
+              "url": "#why-us"
+            }
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Support",
+          "links": [
+            {
+              "id": "testimonials",
+              "label": "Testimonials",
+              "url": "#testimonials"
+            },
+            {
+              "id": "faqs",
+              "label": "FAQs",
+              "url": "#faqs"
+            },
+            {
+              "id": "contact-us",
+              "label": "Contact Us",
+              "url": "#contact"
+            }
+          ]
+        }
+      ],
+      "contactTitle": "Contact Info",
+      "copyrightText": "© {year} Nexorix IT Solutions. All Rights Reserved. Powered by Lestow."
+    }
+  },
+  "categories": {
+    "ITSolutions": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "ITSolutionsHeader1": {
+              "logoUrl": "/",
+              "homeLabel": "Nexorix IT Solutions — back to top",
+              "navLinks": [
+                {
+                  "id": "home",
+                  "label": "Home",
+                  "url": "#home"
+                },
+                {
+                  "id": "about-us",
+                  "label": "About Us",
+                  "url": "#about"
+                },
+                {
+                  "id": "services",
+                  "label": "Services",
+                  "url": "#services"
+                },
+                {
+                  "id": "why-choose-us",
+                  "label": "Why Choose Us",
+                  "url": "#why-us"
+                },
+                {
+                  "id": "testimonials",
+                  "label": "Testimonials",
+                  "url": "#testimonials"
+                },
+                {
+                  "id": "faqs",
+                  "label": "Faqs",
+                  "url": "#faqs"
+                }
+              ],
+              "buttonText": "Contact Us",
+              "buttonUrl": "#contact",
+              "mainNavLabel": "Main navigation",
+              "mobileNavLabel": "Mobile navigation",
+              "openMenuLabel": "Open menu",
+              "closeMenuLabel": "Close menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "ITSolutionsHero1": {
+              "id": "home",
+              "label": "Optimize IT Systems",
+              "titleTop": "Creating a Better",
+              "titleAccent": "Tech Solutions",
+              "description": "Innovative, scalable and reliable IT solutions to\nhelp your business grow.",
+              "image": "/images/hero-team-meeting-v2.webp",
+              "imageAlt": "Nexorix consultants discussing an IT project with a client in a meeting room"
+            }
+          }
+        },
+        "About": {
+          "variants": {
+            "ITSolutionsAbout1": {
+              "id": "about",
+              "label": "Who We Are",
+              "titleTop": "A Trusted Partner for",
+              "titleAccent": "IT Solutions",
+              "description": "NEXORIX is a technology-driven company delivering innovative\nand reliable IT solutions that help businesses grow, operate\nsmarter, and stay ahead in the digital world.",
+              "features": [
+                {
+                  "id": "expert-team",
+                  "icon": "LuLayers",
+                  "title": "Expert Team"
+                },
+                {
+                  "id": "tailored-solutions",
+                  "icon": "LuSettings",
+                  "title": "Tailored Solutions"
+                },
+                {
+                  "id": "long-term-support",
+                  "icon": "LuHandshake",
+                  "title": "Long-Term Support"
+                }
+              ],
+              "image": "/images/about-team-laptop-v2.webp",
+              "imageAlt": "Three Nexorix team members working together on a laptop"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "ITSolutionsServices1": {
+              "id": "services",
+              "label": "Our Services",
+              "titleTop": "Comprehensive",
+              "titleAccent": "IT Services",
+              "description": "End-to-end technology solutions designed to streamline operations, enhance efficiency,\nand drive business growth.",
+              "items": [
+                {
+                  "id": "custom-software-development",
+                  "title": "Custom Software Development",
+                  "text": "Scalable and secure software solutions\ntailored to your business needs.",
+                  "image": "/images/service-custom-software-v2.webp",
+                  "imageAlt": "Developer writing code on a laptop"
+                },
+                {
+                  "id": "cloud-solutions",
+                  "title": "Cloud Solutions",
+                  "text": "Flexible, secure, and cost-effective\ncloud services to power your business.",
+                  "image": "/images/service-cloud-solutions-v2.webp",
+                  "imageAlt": "Glowing cloud icon connected to data lines"
+                },
+                {
+                  "id": "it-infrastructure",
+                  "title": "IT Infrastructure",
+                  "text": "Reliable IT infrastructure setup,\nmanagement, and optimization\nfor higher performance.",
+                  "image": "/images/service-it-infrastructure-v2.webp",
+                  "imageAlt": "Rows of server racks in a data centre"
+                },
+                {
+                  "id": "cybersecurity-solutions",
+                  "title": "Cybersecurity Solutions",
+                  "text": "Comprehensive security measures\nto protect your data, systems, and\nbusiness.",
+                  "image": "/images/service-cybersecurity-v2.webp",
+                  "imageAlt": "Security shield with a padlock above a laptop keyboard"
+                },
+                {
+                  "id": "business-it-consulting",
+                  "title": "Business IT Consulting",
+                  "text": "Strategic IT guidance to improve\nefficiency, reduce costs, and accelerate\ngrowth.",
+                  "image": "/images/service-business-consulting-v2.webp",
+                  "imageAlt": "Consultant reviewing business charts on a laptop"
+                },
+                {
+                  "id": "managed-it-services",
+                  "title": "Managed IT Services",
+                  "text": "Proactive monitoring, maintenance,\nand support to keep your business\nrunning smoothly.",
+                  "image": "/images/service-managed-it-v2.webp",
+                  "imageAlt": "Support engineer with a headset monitoring systems"
+                },
+                {
+                  "id": "system-integration",
+                  "title": "System Integration",
+                  "text": "Seamless integration of tools and\ntechnologies for a connected and\nefficient workflow.",
+                  "image": "/images/service-system-integration-v2.webp",
+                  "imageAlt": "Connected gears floating above a laptop"
+                },
+                {
+                  "id": "data-management",
+                  "title": "Data Management",
+                  "text": "Organize, secure, and optimize your\nbusiness data for smarter\ndecision-making.",
+                  "image": "/images/service-data-management-v2.webp",
+                  "imageAlt": "Data servers next to a laptop showing growth charts"
+                }
+              ]
+            }
+          }
+        },
+        "Why": {
+          "variants": {
+            "ITSolutionsWhy1": {
+              "id": "why-us",
+              "label": "Why Choose Us",
+              "titleTop": "Your Trusted",
+              "titleAccent": "IT Partner",
+              "description": "We combine technology expertise, industry experience, and a client-first\napproach to deliver reliable and result-driven IT solutions.",
+              "image": "/images/why-team-working-v2.webp",
+              "imageAlt": "Nexorix team reviewing a project together on a laptop",
+              "points": [
+                {
+                  "id": "industry-expertise",
+                  "title": "Industry Expertise",
+                  "text": "A skilled team with deep\ntechnical knowledge and\nreal-world experience.",
+                  "image": "/images/why-industry-expertise-v2.webp",
+                  "imageAlt": "Golden king chess piece on a chessboard"
+                },
+                {
+                  "id": "client-centric-approach",
+                  "title": "Client-Centric Approach",
+                  "text": "We focus on your business\ngoals and deliver solutions\nthat create real value.",
+                  "image": "/images/why-client-centric-v2.webp",
+                  "imageAlt": "Two business partners shaking hands"
+                },
+                {
+                  "id": "reliable-scalable",
+                  "title": "Reliable & Scalable",
+                  "text": "Secure, high-performance\nsolutions that grow with\nyour business.",
+                  "image": "/images/why-reliable-scalable-v2.webp",
+                  "imageAlt": "Rising growth chart above a laptop keyboard"
+                },
+                {
+                  "id": "innovation-driven",
+                  "title": "Innovation-Driven",
+                  "text": "We leverage the latest\ntechnologies to solve\ncomplex business challenges.",
+                  "image": "/images/why-innovation-v2.webp",
+                  "imageAlt": "Hand holding a glowing light bulb"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "ITSolutionsTestimonials1": {
+              "id": "testimonials",
+              "label": "Testimonials",
+              "titleTop": "People Who Already",
+              "titleAccent": "Trust Us",
+              "ratingLabel": "{stars} out of 5 stars",
+              "previousLabel": "Previous testimonial",
+              "nextLabel": "Next testimonial",
+              "items": [
+                {
+                  "id": "daniel-carter",
+                  "name": "Daniel Carter",
+                  "role": "Operations Manager",
+                  "quote": "“NEXORIX has been a valuable technology partner\nfor our business. Their team understood our\nrequirements perfectly and delivered a reliable,\nscalable solution on time.”",
+                  "image": "/images/testimonial-daniel-v2.webp",
+                  "stars": 5
+                },
+                {
+                  "id": "emily-rogers",
+                  "name": "Emily Rogers",
+                  "role": "Business Director",
+                  "quote": "“The professionalism, technical expertise, and\nongoing support from NEXORIX have been\nexceptional. They truly focus on delivering\nsolutions that create real business value.”",
+                  "image": "/images/testimonial-emily-v2.webp",
+                  "stars": 5
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "ITSolutionsContact1": {
+              "id": "contact",
+              "label": "Contact Us",
+              "titleTop": "Get In Touch",
+              "titleAccent": "With Us",
+              "description": "Have a question, a project in mind, or need expert support? We’d love to hear from you.",
+              "formTitle": "Send Us a Message",
+              "infoTitle": "Contact Info",
+              "mapItemId": "address",
+              "mapLabel": "Open our address in Google Maps"
+            }
+          }
+        },
+        "EnquiryForm": {
+          "variants": {
+            "ITSolutionsEnquiryForm1": {
+              "fields": {
+                "name": {
+                  "placeholder": "Full Name",
+                  "icon": "LuUser"
+                },
+                "email": {
+                  "placeholder": "Email Address",
+                  "icon": "LuMail"
+                },
+                "phone": {
+                  "placeholder": "Phone Number",
+                  "icon": "LuPhone"
+                },
+                "subject": {
+                  "placeholder": "Subject",
+                  "icon": "LuList"
+                },
+                "message": {
+                  "placeholder": "Your Message",
+                  "icon": "LuPencil"
+                }
+              },
+              "extraSubjects": [
+                "General Enquiry",
+                "Technical Support"
+              ],
+              "button": "Submit Now",
+              "sending": "Sending…",
+              "successTitle": "Thank you, {name}!",
+              "success": "Your message has been received. Our team will get back to you shortly.",
+              "closeLabel": "Close message"
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "ITSolutionsFaq1": {
+              "id": "faqs",
+              "label": "FAQs",
+              "titleTop": "Frequently Asked",
+              "titleAccent": "Questions",
+              "description": "Find answers to common questions about our services, processes, and support.",
+              "image": "/images/faq-man-laptop-v2.webp",
+              "imageAlt": "Businessman in glasses thinking while working on a laptop",
+              "items": [
+                {
+                  "id": "it-services",
+                  "question": "What IT services do you offer?",
+                  "answer": "We offer a comprehensive range of IT services, including custom software development, cloud solutions, IT consulting, system integration, cybersecurity, and managed IT services."
+                },
+                {
+                  "id": "data-security",
+                  "question": "How do you ensure data security?",
+                  "answer": "We follow industry best practices, including encryption, access control, regular security audits, and continuous monitoring, to keep your data and systems protected."
+                },
+                {
+                  "id": "existing-systems",
+                  "question": "Can you work with our existing systems?",
+                  "answer": "Yes. We review your current tools and infrastructure first, then integrate, extend, or modernise them so everything works together without disrupting your business."
+                },
+                {
+                  "id": "ongoing-support",
+                  "question": "Do you provide ongoing support and maintenance?",
+                  "answer": "Yes. Our managed IT and support plans cover proactive monitoring, updates, maintenance, and a dedicated team ready to help whenever you need it."
+                },
+                {
+                  "id": "project-timeline",
+                  "question": "How long does it take to complete a project?",
+                  "answer": "It depends on the scope. Smaller projects usually take a few weeks, while larger solutions are delivered in planned phases, with a clear timeline agreed before we start."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "template-1": {
+          "shared": {
+            "Header": "ITSolutionsHeader1",
+            "Footer": "common.Footer"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "Hero",
+                  "component": "ITSolutionsHero1"
+                },
+                {
+                  "key": "About",
+                  "component": "ITSolutionsAbout1"
+                },
+                {
+                  "key": "Services",
+                  "component": "ITSolutionsServices1"
+                },
+                {
+                  "key": "Why",
+                  "component": "ITSolutionsWhy1"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "ITSolutionsTestimonials1"
+                },
+                {
+                  "key": "Contact",
+                  "component": "ITSolutionsContact1"
+                },
+                {
+                  "key": "Faq",
+                  "component": "ITSolutionsFaq1"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
