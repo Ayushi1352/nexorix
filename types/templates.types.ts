@@ -30,7 +30,6 @@ export interface ContactItem {
 }
 
 export interface CompanyData {
-  name: string;
   logo: string;
   /** the same logo with white letters, for the dark footer */
   logoLight: string;
