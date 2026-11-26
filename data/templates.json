@@ -172,7 +172,7 @@
           "variants": {
             "ITSolutionsAbout1": {
               "id": "about",
-              "label": "Who We Are",
+              "label": "About Us",
               "titleTop": "A Trusted Partner for",
               "titleAccent": "IT Solutions",
               "description": "NEXORIX is a technology-driven company delivering innovative\nand reliable IT solutions that help businesses grow, operate\nsmarter, and stay ahead in the digital world.",
@@ -464,12 +464,12 @@
                   "component": "ITSolutionsTestimonials1"
                 },
                 {
-                  "key": "Contact",
-                  "component": "ITSolutionsContact1"
-                },
-                {
                   "key": "Faq",
                   "component": "ITSolutionsFaq1"
+                },
+                {
+                  "key": "Contact",
+                  "component": "ITSolutionsContact1"
                 }
               ]
             }

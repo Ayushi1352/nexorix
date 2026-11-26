@@ -17,7 +17,7 @@ export const CornerAccent = ({ corner, className = "" }: CornerProps) => (
   <span
     aria-hidden="true"
     className={`pointer-events-none absolute border-solid ${
-      corner === "top-left" ? "border-b-0 border-r-0" : "border-l-0 border-t-0"
+      corner === "top-left" ? "!border-b-0 !border-r-0" : "!border-l-0 !border-t-0"
     } ${className}`}
   />
 );

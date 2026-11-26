@@ -32,13 +32,13 @@ export default function Home() {
       <ServicesSection data={sectionData.Services?.variants?.ITSolutionsServices1} />
       <WhySection data={sectionData.Why?.variants?.ITSolutionsWhy1} />
       <TestimonialsSection data={sectionData.Testimonials?.variants?.ITSolutionsTestimonials1} />
+      <FaqSection data={sectionData.Faq?.variants?.ITSolutionsFaq1} />
       <ContactSection
         data={sectionData.Contact?.variants?.ITSolutionsContact1}
         form={enquiryFormData}
         company={commonData.company}
         subjectOptions={subjectOptions}
       />
-      <FaqSection data={sectionData.Faq?.variants?.ITSolutionsFaq1} />
     </main>
   );
 }

@@ -72,7 +72,7 @@ export const ContactSection = ({ data, form, company, subjectOptions }: Props) =
           ) : (
             <div aria-hidden="true" className={mapClass}>
               {mapArt}
-            </div>
+            </div> 
           )}
 
           <div className="mt-4 rounded-2xl bg-[var(--color-bg-info)] px-6 pb-6 pt-6 text-[var(--color-white)] sm:px-8 lg:absolute lg:right-[2.125rem] lg:top-[0.25rem] lg:mt-0 lg:h-[24.75rem] lg:w-[26.6rem] lg:rounded-[1rem] lg:px-[2.31rem] lg:pb-0 lg:pt-[2.35rem]">

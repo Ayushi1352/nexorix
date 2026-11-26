@@ -20,7 +20,8 @@ const linkClass = (current: boolean) =>
  * Phones and tablets get a menu button that opens the links in a card under the bar.
  */
 export const Header = ({ data, company }: { data?: HeaderData; company: CompanyData }) => {
-  const active = useActiveSection(data?.navLinks.map((link) => link.url) ?? []);
+  const sectionUrls = data ? [...data.navLinks.map((link) => link.url), data.buttonUrl] : [];
+  const active = useActiveSection(sectionUrls);
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -52,6 +53,9 @@ export const Header = ({ data, company }: { data?: HeaderData; company: CompanyD
   };
 
   const compact = scrolled || open;
+  const contactCurrent = sectionId(data.buttonUrl) === active;
+  const contactActiveClass =
+    "aria-[current=location]:before:opacity-100 aria-[current=location]:ring-2 aria-[current=location]:ring-[var(--color-copper)] aria-[current=location]:ring-offset-2 aria-[current=location]:ring-offset-[var(--color-bg-header)]";
 
   return (
     <header
@@ -91,7 +95,8 @@ export const Header = ({ data, company }: { data?: HeaderData; company: CompanyD
         <div className="ml-auto flex items-center gap-3">
           <a
             href={data.buttonUrl}
-            className={`${buttonClass} h-11 gap-2 px-5 text-base max-sm:hidden lg:h-[3.5rem] lg:w-[14.5rem] lg:gap-[0.55rem] lg:px-0 lg:text-[1.5625rem]`}
+            aria-current={contactCurrent ? "location" : undefined}
+            className={`${buttonClass} ${contactActiveClass} h-11 gap-2 px-5 text-base max-sm:hidden lg:h-[3.5rem] lg:w-[14.5rem] lg:gap-[0.55rem] lg:px-0 lg:text-[1.5625rem]`}
           >
             {data.buttonText}
             <Icon name="LuArrowRight" className={`${buttonArrow} size-[1.1em]`} strokeWidth={2.4} />
@@ -144,7 +149,12 @@ export const Header = ({ data, company }: { data?: HeaderData; company: CompanyD
               );
             })}
             <li className="pt-5 sm:hidden">
-              <a href={data.buttonUrl} onClick={() => setOpen(false)} className={`${buttonClass} h-12 w-full gap-2 text-base`}>
+              <a
+                href={data.buttonUrl}
+                onClick={() => setOpen(false)}
+                aria-current={contactCurrent ? "location" : undefined}
+                className={`${buttonClass} ${contactActiveClass} h-12 w-full gap-2 text-base`}
+              >
                 {data.buttonText}
                 <Icon name="LuArrowRight" className={`${buttonArrow} size-[1.1em]`} strokeWidth={2.4} />
               </a>

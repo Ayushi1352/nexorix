@@ -9,8 +9,6 @@ export const submitClass =
 /** arrow inside a button that turns up-right on hover */
 export const buttonArrow = "shrink-0 transition-transform duration-300 group-hover:-rotate-45";
 
-/** round slider arrows (Testimonials): outlined, and the filled orange "next" one */
+/** round slider arrows (Testimonials): outlined by default, highlighted orange on hover */
 export const roundOutlineClass =
-  "grid place-items-center rounded-full border-[0.09rem] border-[var(--color-ink)] bg-[var(--color-white)] text-[var(--color-ink)] transition-colors duration-300 hover:border-[var(--color-orange)] hover:bg-[var(--color-orange)] hover:text-[var(--color-white)]";
-export const roundFilledClass =
-  "grid place-items-center rounded-full bg-[var(--color-orange)] text-[var(--color-white)] shadow-[0_0.6rem_1.2rem_-0.6rem_var(--color-shadow-orange)] transition-colors duration-300 hover:bg-[var(--color-ink)]";
+  "grid place-items-center rounded-full border-[0.09rem] border-[var(--color-ink)] bg-[var(--color-white)] text-[var(--color-ink)] transition-[color,background-color,border-color,box-shadow] duration-300 hover:border-[var(--color-orange)] hover:bg-[var(--color-orange)] hover:text-[var(--color-white)] hover:shadow-[0_0.6rem_1.2rem_-0.6rem_var(--color-shadow-orange)]";
